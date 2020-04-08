@@ -1,0 +1,33 @@
+{
+  "name": "webperf-psi",
+  "version": "1.0.0",
+  "description": "Easy to use, PSI API hit using Node.js to collect Web Performance Metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazipan/webperf-psi.git"
+  },
+  "keywords": [
+    "pagespeed-insight",
+    "psi",
+    "web",
+    "perf"
+  ],
+  "author": "Irfan Maulana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mazipan/webperf-psi/issues"
+  },
+  "homepage": "https://github.com/mazipan/webperf-psi#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cli-table3": "^0.6.0",
+    "dotenv": "^8.2.0",
+    "jest": "^25.2.7",
+    "node-fetch": "^2.6.0",
+    "ora": "^4.0.3"
+  }
+}
