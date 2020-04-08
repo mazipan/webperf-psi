@@ -6,9 +6,9 @@ Easy to use, PSI API hit using Node.js to collect Web Performance Metrics
 
 Visit [https://developers.google.com/speed/docs/insights/v5/get-started](https://developers.google.com/speed/docs/insights/v5/get-started)
 
-## Update the Parameters
+## Update the parameters
 
-We use `.env` file for, you see on the `.env-example`
+We use `.env` file for the configurations, you can see on the `.env-example`
 
 + `API_KEY`: Your PSI API key
 + `PAGE_URL`: URL to be analyzed
