@@ -16,6 +16,12 @@ We use `.env` file for the configurations, you can see on the `.env-example`
 + `RUN`: Number of run you want to hit PSI (optional, the default value is `1`)
 + `QUANTILE`: Quantile value, range value is from 0 to 1 (optional, default is `0.75`)
 
+## Install dependencies
+
+```bash
+$ pnpm install
+```
+
 ## Run the analyze
 
 ```bash
