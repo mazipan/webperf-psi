@@ -1,4 +1,4 @@
-# webperf-psi
+# 🚀 webperf-psi
 
 Easy to use, PSI API hit using Node.js to collect Web Performance Metrics
 
@@ -14,9 +14,9 @@ Visit [https://developers.google.com/speed/docs/insights/v5/get-started](https:/
 $ npx webperf-psi
 ```
 
-- Run in local
+- Run in your local
 
-We used `pnpm` instead of `npm` or `yarn`.
+Fork, then just run:
 
 ```bash
 $ pnpm install
