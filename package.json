@@ -7,7 +7,7 @@
 		"webperf-psi": "bin/index.js"
 	},
 	"files": [
-		"bin/index.js",
+		"bin",
 		"src"
 	],
 	"scripts": {
