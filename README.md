@@ -10,10 +10,16 @@ Visit [https://developers.google.com/speed/docs/insights/v5/get-started](https:/
 
 ## Usage
 
-- With `npx`
+- With `npx`, using interactive mode
 
 ```bash
 $ npx webperf-psi
+```
+
+- With `npx`, using CLI mode
+
+```bash
+$ npx webperf-psi --u={YOUR_PAGE} --k={API_KEY}
 ```
 
 - Run in your local

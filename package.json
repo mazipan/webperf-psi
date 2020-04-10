@@ -1,10 +1,11 @@
 {
 	"name": "webperf-psi",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Easy to use, PSI API hit using Node.js to collect Web Performance Metrics",
 	"main": "src/index.js",
 	"bin": {
-		"webperf-psi": "bin/index.js"
+		"webperf-psi": "bin/index.js",
+		"webperf-psi-cli": "bin/cli.js"
 	},
 	"files": [
 		"bin",
@@ -36,7 +37,8 @@
 		"dotenv": "8.2.0",
 		"inquirer": "7.1.0",
 		"node-fetch": "2.6.0",
-		"ora": "4.0.3"
+		"ora": "4.0.3",
+		"yargs": "15.3.1"
 	},
 	"devDependencies": {
 		"jest": "25.2.7"

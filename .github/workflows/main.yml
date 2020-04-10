@@ -1,0 +1,16 @@
+name: Run CLI
+on:
+  #push:
+  #  branches: master
+  schedule:
+    - cron: '0 12 * * 3'
+jobs:
+  run_cli:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use node 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: Running CLI
+        run: npx webperf-psi-cli --u=https://mazipan.space --k=${{ secrets.LIGHTHOUSE_API_KEY }}
