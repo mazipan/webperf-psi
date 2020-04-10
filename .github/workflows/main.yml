@@ -16,4 +16,4 @@ jobs:
         shell: bash
         env:
           PSI_API_KEY: ${{ secrets.PSI_API_KEY }}
-        run: npx webperf-psi-cli --u=https://mazipan.space --k="$PSI_API_KEY"
+        run: npx -p webperf-psi webperf-psi-cli --u=https://mazipan.space --k="$PSI_API_KEY"
