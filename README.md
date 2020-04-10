@@ -19,7 +19,7 @@ $ npx webperf-psi
 - With `npx`, using CLI mode
 
 ```bash
-$ npx webperf-psi --u={YOUR_PAGE} --k={API_KEY}
+$ npx -p webperf-psi webperf-psi-cli --u={YOUR_PAGE} --k={API_KEY}
 ```
 
 - Run in your local
