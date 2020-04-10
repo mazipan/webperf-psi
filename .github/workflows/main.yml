@@ -13,4 +13,7 @@ jobs:
         with:
           node-version: 12.x
       - name: Running CLI
-        run: npx webperf-psi-cli --u=https://mazipan.space --k=${{ secrets.LIGHTHOUSE_API_KEY }}
+        shell: bash
+        env:
+          PSI_API_KEY: ${{ secrets.PSI_API_KEY }}
+        run: npx webperf-psi-cli --u=https://mazipan.space --k="$PSI_API_KEY"
