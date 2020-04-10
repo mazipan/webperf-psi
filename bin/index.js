@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const initPrompt = require('./prompt');
+const chalk = require('chalk');
 const main = require('../src/index');
 
 async function mainBin() {
@@ -19,4 +20,8 @@ async function mainBin() {
 	})
 }
 
-mainBin();
+try {
+	mainBin();
+} catch (error) {
+	console.log(chalk.red(`[webperf-psi] top level error`), error);
+}

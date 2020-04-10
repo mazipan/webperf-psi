@@ -10,19 +10,29 @@ Visit [https://developers.google.com/speed/docs/insights/v5/get-started](https:/
 
 ## Usage
 
-- With `npx`, using interactive mode
+- **With `npx`, using interactive mode**
 
 ```bash
 $ npx webperf-psi
 ```
 
-- With `npx`, using CLI mode
+- **With `npx`, using CLI mode**
 
 ```bash
 $ npx -p webperf-psi webperf-psi-cli --u={YOUR_PAGE} --k={API_KEY}
 ```
 
-- Run in your local
+Available arguments:
+
+| Args  | Desc 						   | Required  | Default Value  |
+|-------|--------------------|-----------|----------------|
+| `u`   | Url to be tested   |  yes 		 | -  						|
+| `k`   | API Key  					 |  yes 		 | -  						|
+| `d`   | Device  					 |  no 		 	 | mobile  				|
+| `h`   | Number of hit PSI  |  no 			 | 1  						|
+| `q`   | Quantile  				 |  no 			 | 0.75  					|
+
+- **Run in your local**
 
 Fork, then just run:
 

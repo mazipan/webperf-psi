@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-const argv = require('yargs').argv
+const argv = require('yargs').argv;
+const chalk = require('chalk');
 const main = require('../src/index');
 
 const url = argv.u || 'https://mazipan.space';
@@ -9,7 +10,7 @@ const hit = argv.h || 1;
 const quantile = argv.q || 0.75;
 
 async function mainBin() {
-	if (!apikey) {
+	if (!apiKey) {
 		console.log(chalk.red(`Please type your api key, read https://s.id/apikey`));
 		process.exit(1)
 	}
@@ -24,4 +25,9 @@ async function mainBin() {
 	})
 }
 
-mainBin();
+try {
+	mainBin();
+} catch (error) {
+	console.log(chalk.red(`[webperf-psi-cli] top level error`), error);
+}
+

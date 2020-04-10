@@ -1,6 +1,6 @@
 {
 	"name": "webperf-psi",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Easy to use, PSI API hit using Node.js to collect Web Performance Metrics",
 	"main": "src/index.js",
 	"bin": {
