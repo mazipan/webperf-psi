@@ -1,4 +1,3 @@
-const Table = require('cli-table3');
 const chalk = require('chalk');
 const ora = require('ora');
 
@@ -28,15 +27,25 @@ module.exports = async function main({ url, apiKey, device = 'mobile', hitNumber
 		});
 	}
 
-	console.log(chalk.green('\n==== FINAL RESULT ====\n'));
+	console.log(chalk.green('\n==== RESULT SUMMARY ====\n'));
 	const report = utils.quantile(allReports, parseFloat(quantile), 'perf');
 
 	if (logResult) {
-		const tableLog = new Table({
-			head: ['Perf', 'TTFB', 'FCP', 'TTI'],
-		});
-		tableLog.push([report.perf, report.ttfb, report.fcp, report.tti]);
-		console.log(tableLog.toString());
+		console.log(`
+---------------------------------
+Result for ${url}
+---------------------------------
+Perf              : ${report.perf}
+TTFB              : ${report.ttfb}
+FCI               : ${report.fci}
+FCP               : ${report.fcp}
+TTI               : ${report.tti}
+SI                : ${report.si}
+Total Size        : ${report.size}
+Resources Count   : ${report.req}
+---------------------------------
+		`);
+
 		console.log(chalk.green('\nThank you for using this tools, you can support me by giving a star on the github repo\n'));
 	}
 
