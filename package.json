@@ -1,44 +1,44 @@
 {
-  "name": "webperf-psi",
-  "version": "1.0.0",
-  "description": "Easy to use, PSI API hit using Node.js to collect Web Performance Metrics",
+	"name": "webperf-psi",
+	"version": "1.0.0",
+	"description": "Easy to use, PSI API hit using Node.js to collect Web Performance Metrics",
 	"main": "src/index.js",
 	"bin": {
-    "webperf-psi": "bin/index.js"
+		"webperf-psi": "bin/index.js"
 	},
-  "files": [
-    "bin/index.js",
-    "src"
-  ],
-  "scripts": {
-    "test": "jest",
-    "psi": "node ./bin/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mazipan/webperf-psi.git"
-  },
-  "keywords": [
-    "pagespeed-insight",
-    "psi",
-    "web",
-    "perf"
-  ],
-  "author": "Irfan Maulana",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mazipan/webperf-psi/issues"
-  },
-  "homepage": "https://github.com/mazipan/webperf-psi#readme",
-  "dependencies": {
-    "chalk": "4.0.0",
-    "cli-table3": "0.6.0",
+	"files": [
+		"bin/index.js",
+		"src"
+	],
+	"scripts": {
+		"test": "jest",
+		"psi": "node ./bin/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mazipan/webperf-psi.git"
+	},
+	"keywords": [
+		"pagespeed-insight",
+		"psi",
+		"web",
+		"perf"
+	],
+	"author": "Irfan Maulana",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mazipan/webperf-psi/issues"
+	},
+	"homepage": "https://github.com/mazipan/webperf-psi#readme",
+	"dependencies": {
+		"chalk": "4.0.0",
+		"cli-table3": "0.6.0",
 		"dotenv": "8.2.0",
 		"inquirer": "7.1.0",
-    "node-fetch": "2.6.0",
-    "ora": "4.0.3"
+		"node-fetch": "2.6.0",
+		"ora": "4.0.3"
 	},
 	"devDependencies": {
-    "jest": "25.2.7"
+		"jest": "25.2.7"
 	}
 }
