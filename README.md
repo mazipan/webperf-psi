@@ -2,6 +2,8 @@
 
 Easy to use, PSI API hit using Node.js to collect Web Performance Metrics
 
+![Usage example](screenshoot.png)
+
 ## Get your own API Key
 
 Visit [https://developers.google.com/speed/docs/insights/v5/get-started](https://developers.google.com/speed/docs/insights/v5/get-started)
