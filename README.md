@@ -41,6 +41,10 @@ $ pnpm install
 $ pnpm run psi
 ```
 
+## Support
+
+You can support me by just giving a ⭐ in this repository
+
 ---
 
 © 2020 Crafted by Irfan Maulana
