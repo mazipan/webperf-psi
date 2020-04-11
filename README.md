@@ -2,6 +2,8 @@
 
 Easy to use, PSI API hit using Node.js to collect Web Performance Metrics
 
+![Run CLI](https://github.com/mazipan/webperf-psi/workflows/Run%20CLI/badge.svg?branch=master)
+
 ![Usage example](screenshoot.png)
 
 ## Get your own API Key
